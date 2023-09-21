@@ -1,4 +1,4 @@
-package Q594;
+package Qize.Q594;
 
 import java.util.Scanner;
 

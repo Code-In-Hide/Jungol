@@ -1,4 +1,4 @@
-package Q9006;
+package Qize.Q9006;
 
 public class Main2 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Q828;
+package Qize.Q828;
 
 import java.util.Scanner;
 

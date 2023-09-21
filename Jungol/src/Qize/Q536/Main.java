@@ -1,4 +1,4 @@
-package Q536;
+package Qize.Q536;
 
 public class Main {
 	public static void main(String[] args) {

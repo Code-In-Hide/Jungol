@@ -1,4 +1,4 @@
-package Q510;
+package Qize.Q510;
 
 public class Main {
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main_ifelse {
 	public static void main(String[] args) {
 		
-		//'' 로 문제 풀이
+		//'' char 로 문제 풀이
 		/*Scanner a = new Scanner(System.in);
 		char b = a.next().charAt(0);
 		a.close();
@@ -17,7 +17,7 @@ public class Main_ifelse {
 		else if (b == 'F') {System.out.println("Failure");}
 		else System.out.println("error"); */
 		
-		//"" 로 문제 풀이
+		//"" String 로 문제 풀이
 		Scanner a = new Scanner(System.in);
 		String b= a.next();
 		a.close();

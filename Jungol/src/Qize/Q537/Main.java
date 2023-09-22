@@ -7,8 +7,8 @@ public class Main {
 		Scanner sc = new Scanner (System.in);
 		int inp = sc.nextInt();
 		int sum = 0;
-		int i = 0;
 		
+		int i = 0;
 		while(i <= inp) {
 			sum += i;
 			i++;

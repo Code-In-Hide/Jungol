@@ -9,10 +9,12 @@ public class Main {
 		int sum = 0;
 		
 		int i = 0;
-		while(i <= inp) {
-			sum += i;
-			i++;
+		if (inp <= 100) {
+			while(i <= inp) {
+				sum += i;
+				i++;
+			}
+			System.out.println(sum);
 		}
-		System.out.println(sum);
 	}
 }

@@ -18,8 +18,6 @@ public class Main {
 			System.out.println("seasonal semester");
 			break;
 		case 1:
-			System.out.println("retake");
-			break;
 		case 0:
 			System.out.println("retake");
 			break;

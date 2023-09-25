@@ -2,8 +2,6 @@ package Qize.Q9132;
 
 import java.util.Scanner;
 
-import org.w3c.dom.ls.LSOutput;
-
 class Student {
 	private String name;
 	private int korScore;

@@ -10,7 +10,7 @@ public class Main {
 			a[i] = sc.next().charAt(0);
 			if (i % 3 == 0 && i <= 9) {
 				System.out.print(a[i] + " ");
-				
+
 			}else if(i == 8){
 				break;
 			}

@@ -9,13 +9,10 @@ class Student {
 	public Student(String school, int grade) {
 		this.school = school;
 		this.grade = grade;
-		school = "Jejuelementary";
-		grade = 6;
-		System.out.println(grade + " grade in " + school + " School");
 	}
 	
 	public void print() {
-		System.out.println(grade + " grade in " + school + " School");
+		System.out.println(this.grade + " grade in " + this.school + " School");
 	}
 }
 
@@ -26,7 +23,9 @@ public class Main {
 		int grade = sc.nextInt();
 		sc.close();
 		
-		Student stu1 = new Student(school, grade);
+		Student stu1 = new Student("Jejuelementary", 6);
+		Student stu2 = new Student(school, grade);
 		stu1.print();
+		stu2.print();
 	}
 }

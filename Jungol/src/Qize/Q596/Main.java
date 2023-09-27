@@ -15,8 +15,8 @@ public class Main {
 				System.out.print(str1[i]);
 			}
 		} else {
-			for (int i = str.length() - 1, c = 0; c < a; i--, c++) {
-				System.out.print(str1[i]);
+			for (int i = str.length() - 1, c = 0; c < a; i--, c++) { // c는 뒤에서 부터 몇개를 출력할건지 나타내는 것
+				System.out.print(str1[i]);							 // i는 str1 배열을 뒤에서부터 출력하려는 것
 			}
 		}
 	}

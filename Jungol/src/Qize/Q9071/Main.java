@@ -18,11 +18,11 @@ public class Main {
 		int max = -10000, min = 10000;
 
 		for (int i = 0; i < ar.length; i++) {
-			if (ar[i] % 2 == 0) {
+			if (ar[i] % 2 == 0) {		 //짝수
 				if (max < ar[i]) {
 					max = ar[i];
 				}
-			} else {
+			} else {					//홀수
 				if (min > ar[i]) {
 					min = ar[i];
 				}
